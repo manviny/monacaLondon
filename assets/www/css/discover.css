@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+#home {
+	background: url(../images/london-blur.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+#intro {
+	padding: 80px 40px 40px;
+}
+.title {
+	float: left;
+	color: #fff;
+	font-size: 2.5em;
+	line-height: 0.9em;
+	text-shadow: 0.05em 0.05em 0.14em black;
+}
+.caption a{color: #fff};
+.sub {
+	line-height: 0.9em;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+.logo {
+	float: left;
+}
+.clearfix{
+	clear: both;
+}
+.dark-tab-bar a {width: 50%;}
+.dark-tab-bar {position: fixed; bottom: 0;}
+.light {
+	color: #000;
+	background: #DFE2E2;
+	padding: 1px 20px 20px;
+}
+li a {
+	text-decoration: none;
+	color: rgb(69, 69, 69);
+}
